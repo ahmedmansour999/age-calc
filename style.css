@@ -1,0 +1,51 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&family=Orbitron:wght@900&family=Poppins&family=Teko:wght@500;600;700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background-image: url(./img/timer.avif);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Teko', sans-serif;
+
+}
+h1{
+    font-size: 4rem;
+    font-weight: normal;
+}
+.countdown-container{
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.countdown-container .countdown-el {
+    margin: 0 2rem;
+}
+.countdown-el p {
+    margin: 0;
+    font-size: 5rem;
+}
+.countdown-el span{
+    font-size: 2rem;
+}
+.text-container{
+    text-align: center;
+    padding: 2rem;
+}
+h2{
+    font-size: 4rem;
+    font-weight: normal;
+}
+input , button{
+    font-size: 1rem;
+}

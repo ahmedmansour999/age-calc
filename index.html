@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer ></script>
+    <title>Countdown</title>
+</head>
+<body>
+    <div class="text-container">
+        <h2>Select Your BirthDay </h2>
+        <input type="date" id="txt-date" >
+        <button onclick="calcdate()">Calculate Age</button>
+    </div>
+    <h1>Your Age </h1>
+    <div class="countdown-container">
+        <div class="countdown-el year-el" >
+            <p class="year"  id="year-el"></p>
+            <span>years</span>
+        </div>
+        <div class="countdown-el month-el" >
+            <p class="month" id="month-el"></p>
+            <span>months</span>
+        </div>
+        <div class="countdown-el day-el" >
+            <p class="day" id="day-el"></p>
+            <span>days</span>
+        </div>
+        <div class="countdown-el hour-el">
+            <p class="hour" id="hour-el"></p>
+            <span>hours</span>
+        </div>
+        <div class="countdown-el min-el" >
+            <p class="min" id="min-el"></p>
+            <span>mins</span>
+        </div>
+        <div class="countdown-el sec-el" >
+            <p class="sec" id="sec-el"></p>
+            <span>secs</span>
+        </div>
+    </div>
+</body>
+</html>
